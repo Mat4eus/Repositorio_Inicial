@@ -1,21 +1,25 @@
 <template>
     <div id="app">
         <topo/>
-        <br><br><br><br>
-        <veiculo1/>
-        
+        <h2>Lista de Veículos</h2>
+        <h3>Carros</h3>
+        <h4>Carros em Destaque</h4>
+        <listaCarros/>
+        <rodape/>
     </div>
 </template>
 
 <script>
-import veiculo1 from './components/veiculos-assets/vhevolt-onix.vue';
+import  rodape from './components/rodape.vue'; 
+import listaCarros from './components/lista-carros.vue';
 import topo from './components/head.vue';
 
 export default {
     name: 'App',
     components: {
-        veiculo1,
+        listaCarros,
         topo,
+        rodape,
     },
 };
 

@@ -28,46 +28,12 @@
 			padding-top: 5px;
 			padding-bottom:5px ;
 		}
-		p{
-			font-family: arial;
-			text-align: justify;
-			padding: 10px;
-			font-size: 1.6rem;
-
-		}
-		h1{
-			font-family: arial;
-			text-align: justify;
-			padding-top: 10px;
-			font-size: 2rem;
-		}
-		h2{
-			font-family: arial;
-			text-align: justify;
-			padding-top: 10px;
-			font-size: 1.9rem;
-		
-		}
-		.texto-footer{
-			text-align: center;
-			font-family: arial;
-			padding-top:10px ;
-			font-size: 1.6rem;
-			padding-bottom: 10px;
-		}
 		.cards{
-			font-family: arial;
-			text-align: center;
-			padding: 10px;
-			font-size: 1.6rem;
-			background-color: whitesmoke;
-			border: 23px;
-			margin: 35%;
-			border-radius: 10px;
-			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+			border: 50px solid #fff;
+			background-color: cadetblue;
+			box-shadow: 2px 2px 5px #000;
+			border-radius: 20px;
+			padding: 30px;
+			margin: 20px;
 		}
-		.mais-veiculos{
-			background-color: whitesmoke;
-			border-radius: 10px;
-			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-		}	
+		
