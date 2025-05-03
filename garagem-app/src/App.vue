@@ -1,9 +1,8 @@
 <template>
     <div id="app">
         <topo/>
-        <h2>Lista de Veículos</h2>
-        <h3>Carros</h3>
-        <h4>Carros em Destaque</h4>
+        <br><br><br><br><br><br><br><br><br>
+        <h2 class="segundo-titulo">Lista de Veículos</h2>
         <listaCarros/>
         <rodape/>
     </div>

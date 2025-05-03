@@ -11,7 +11,7 @@
 		header{
 			background-color: rgba(0, 0, 0, 1);
 			color: #fff;
-			padding: 10px;
+			padding: 20px;
 			font-family: Arial;
 			width: 100%;
 			position: fixed;
@@ -29,11 +29,30 @@
 			padding-bottom:5px ;
 		}
 		.cards{
-			border: 50px solid #fff;
+			border: 50px;
 			background-color: cadetblue;
 			box-shadow: 2px 2px 5px #000;
 			border-radius: 20px;
 			padding: 30px;
 			margin: 20px;
 		}
-		
+		.segundo-titulo{
+			font-family: Arial;
+			color: #fafafa;
+			text-align: center;
+			font-size: 2.5em;
+		}
+		.botao{
+			background-color: #8b8585;
+			color: #fff;
+			padding: 10px 20px;
+			border-radius: 5px;
+			text-decoration: none;
+			font-family: Arial;
+			font-size: 1.5em;
+			text-align: right;
+			margin-left: 80%;
+			margin-top: 10%;
+
+
+		}

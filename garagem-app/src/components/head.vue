@@ -2,11 +2,11 @@
     <div>
         <header>
             <nav>
-                <a href="#">NOVIDADES</a>	
+                <a class="botao" href="#">NOVIDADES</a>	
             </nav>
     
-            <h3>SemiNovos</h3>
-            <h4>Código Fonte</h4>
+            <h1>SemiNovos</h1>
+            <h2>Código Fonte</h2>
         </header>
     </div>
 </template>
