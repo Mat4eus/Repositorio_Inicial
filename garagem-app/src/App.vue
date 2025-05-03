@@ -1,25 +1,21 @@
 <template>
     <div id="app">
-        <p>Olá, mundo!</p><br>
-        <p>aqui inicializara o vue</p><br>
-        <p>deus abencoe a patria</p><br>
-        <nav>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </nav>
+        <topo/>
+        <br><br><br><br>
+        <veiculo1/>
         
     </div>
 </template>
 
 <script>
-import veiculo1 from './components/veiculo-1.vue';
+import veiculo1 from './components/veiculos-assets/vhevolt-onix.vue';
+import topo from './components/head.vue';
+
 export default {
     name: 'App',
     components: {
         veiculo1,
+        topo,
     },
 };
 
