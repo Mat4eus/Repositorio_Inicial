@@ -15,14 +15,23 @@
                     <li><a href="/">Contatos</a></li>
                 </ul>	
             </nav>
-            <main> </main>
+            <main> 
+                <br><br><br>
+                <listaCarros/>
+            </main>
         </header>
     </div>
 </template>
 
 <script>
+
+import listaCarros from './lista-carros.vue'; // Importa o componente de lista de carros
+
 export default {
     name: 'head',
+    components: {
+        listaCarros, 
+    },    
     data() {
         return {
             isMenuOpen: false, // Estado para controlar o menu
