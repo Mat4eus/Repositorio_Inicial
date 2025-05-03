@@ -18,6 +18,7 @@
             <main> 
                 <br><br><br>
                 <listaCarros/>
+                <rodape/>
             </main>
         </header>
     </div>
@@ -25,12 +26,14 @@
 
 <script>
 
-import listaCarros from './lista-carros.vue'; // Importa o componente de lista de carros
+import listaCarros from './lista-carros.vue'; 
+import  rodape from './rodape.vue';
 
 export default {
     name: 'head',
     components: {
         listaCarros, 
+        rodape,
     },    
     data() {
         return {

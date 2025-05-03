@@ -1,19 +1,16 @@
 <template>
     <div id="app">
-        <topo/>       
-        <rodape/>
+        <topo/>      
     </div>
 </template>
-
-<script>
-import  rodape from './components/rodape.vue'; 
+<script> 
 import topo from './components/head.vue';
 
 export default {
     name: 'App',
     components: {
         topo,
-        rodape,
+       
     },
 };
 

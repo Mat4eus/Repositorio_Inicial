@@ -1,5 +1,5 @@
 <template>
-    <div class="container-veiculos">
+    <div class="cards">
         <veiculo1 />
         <veiculo2 />
         <veiculo3 />
