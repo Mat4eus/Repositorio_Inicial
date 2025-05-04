@@ -28,7 +28,7 @@
 
 		}
 		main{
-			background: url("../src/assets/v1016-b-09.jpg") no-repeat center center fixed;
+			background: url("@/assets/v1016-b-09.jpg") no-repeat center center fixed;
 			background-size: cover;
 			height: 92vh;
 		}
@@ -51,7 +51,7 @@
 			margin: 8px ;
 			transition: 0.3s;
 		}
-		@media (max-width: 999px){
+		@media (max-width: 1999px){
 			body{
 				overflow-x: hidden;
 			}
